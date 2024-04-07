@@ -14,7 +14,7 @@ from handlers.admin_private import admin_router
 
 from common.bot_cmds_list import private
 
-ALLOWED_UPDATES = ['message, edited_message']ё
+ALLOWED_UPDATES = ['message, edited_message']
 
 bot = Bot(token=os.getenv('TOKEN'), parse_mode=ParseMode.HTML)
 bot.my_admins_list = []
